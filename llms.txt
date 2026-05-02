@@ -1,0 +1,51 @@
+# Geotechnicalengineering — Grande Prairie
+
+> Geotechnical engineering services in Grande Prairie, Canada.
+
+## Services
+- [Anchors](https://grande-prairie.geotechnicalengineering.vip/anchors/)
+- [Atterberg Limits](https://grande-prairie.geotechnicalengineering.vip/atterberg-limits/)
+- [Cbr Road](https://grande-prairie.geotechnicalengineering.vip/cbr-road/)
+- [Cpt Test](https://grande-prairie.geotechnicalengineering.vip/cpt-test/)
+- [Deep Excavations](https://grande-prairie.geotechnicalengineering.vip/deep-excavations/)
+- [Excavation Monitoring](https://grande-prairie.geotechnicalengineering.vip/excavation-monitoring/)
+- [Excavations](https://grande-prairie.geotechnicalengineering.vip/excavations/)
+- [Flexible Pavement](https://grande-prairie.geotechnicalengineering.vip/flexible-pavement/)
+- [Footings](https://grande-prairie.geotechnicalengineering.vip/footings/)
+- [Foundations](https://grande-prairie.geotechnicalengineering.vip/foundations/)
+- [Grain Size](https://grande-prairie.geotechnicalengineering.vip/grain-size/)
+- [Ground Improvement](https://grande-prairie.geotechnicalengineering.vip/ground-improvement/)
+- [Grouting](https://grande-prairie.geotechnicalengineering.vip/grouting/)
+- [In Situ Permeability](https://grande-prairie.geotechnicalengineering.vip/in-situ-permeability/)
+- [Investigation](https://grande-prairie.geotechnicalengineering.vip/investigation/)
+- [Lab In Situ](https://grande-prairie.geotechnicalengineering.vip/lab-in-situ/)
+- [Laboratory](https://grande-prairie.geotechnicalengineering.vip/laboratory/)
+- [Liquefaction](https://grande-prairie.geotechnicalengineering.vip/liquefaction/)
+- [Masw](https://grande-prairie.geotechnicalengineering.vip/masw/)
+- [Mat Foundations](https://grande-prairie.geotechnicalengineering.vip/mat-foundations/)
+- [Piles](https://grande-prairie.geotechnicalengineering.vip/piles/)
+- [Proctor Tests](https://grande-prairie.geotechnicalengineering.vip/proctor-tests/)
+- [Resistivity](https://grande-prairie.geotechnicalengineering.vip/resistivity/)
+- [Retaining Walls](https://grande-prairie.geotechnicalengineering.vip/retaining-walls/)
+- [Rigid Pavement](https://grande-prairie.geotechnicalengineering.vip/rigid-pavement/)
+- [Road Geotechnics](https://grande-prairie.geotechnicalengineering.vip/road-geotechnics/)
+- [Sand Cone Density](https://grande-prairie.geotechnicalengineering.vip/sand-cone-density/)
+- [Seismic](https://grande-prairie.geotechnicalengineering.vip/seismic/)
+- [Seismic Isolation](https://grande-prairie.geotechnicalengineering.vip/seismic-isolation/)
+- [Seismic Microzonation](https://grande-prairie.geotechnicalengineering.vip/seismic-microzonation/)
+- [Seismic Refraction](https://grande-prairie.geotechnicalengineering.vip/seismic-refraction/)
+- [Slope Stability](https://grande-prairie.geotechnicalengineering.vip/slope-stability/)
+- [Slopes](https://grande-prairie.geotechnicalengineering.vip/slopes/)
+- [Soft Ground Tunnels](https://grande-prairie.geotechnicalengineering.vip/soft-ground-tunnels/)
+- [Spt Drilling](https://grande-prairie.geotechnicalengineering.vip/spt-drilling/)
+- [Stone Columns](https://grande-prairie.geotechnicalengineering.vip/stone-columns/)
+- [Test Pits](https://grande-prairie.geotechnicalengineering.vip/test-pits/)
+- [Triaxial](https://grande-prairie.geotechnicalengineering.vip/triaxial/)
+- [Vibrocompaction](https://grande-prairie.geotechnicalengineering.vip/vibrocompaction/)
+
+## Contact
+- Website: https://grande-prairie.geotechnicalengineering.vip/
+
+## About
+This site provides geotechnical engineering services in Grande Prairie, Canada.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
