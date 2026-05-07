@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Seismic in Grande Prairie – Canada</title>
 <meta name="description" content="Seismic engineering in Grande Prairie addresses site-specific ground response within a region of moderate seismicity influenced by the Montney and Duvernay">
@@ -19,67 +19,66 @@
 <meta name="twitter:description" content="Seismic engineering in Grande Prairie addresses site-specific ground response within a region of moderate seismicity influenced by the Montney and Duvernay">
 <meta name="twitter:image" content="https://grande-prairie.geotechnicalengineering.vip/img/anclajes-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'IBM Plex Sans',Georgia,serif;background:#FAFAF9;color:#1C1917;line-height:1.7;font-size:16px}
-a{color:#EA580C;text-decoration:none}
-a:hover{color:#D97706}
-/* HEADER DARK */
-.header{background:#171717;color:#FFF;padding:3rem 3rem 4rem}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-.brand{display:flex;align-items:flex-start;gap:1rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#EA580C;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Space Grotesk',sans-serif}
-.brand-text{margin-top:.3rem}
-.brand-name{font-family:'Space Grotesk',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
+@media(max-width:900px){.layout{grid-template-columns:1fr}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
 .brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.header-email{color:#FFF;font-size:.88rem}
-.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#EA580C}
-.header h1{font-family:'Space Grotesk',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
-/* LAYOUT */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+details.faq[open] summary{margin-bottom:.7rem;color:#D97706}
+.sb-home:hover{color:#EA580C}
+.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+.crumb-885f a{color:#FFF;text-decoration:underline;font-weight:600}
+footer a{color:#EA580C}
+.cta a{color:#EA580C;font-weight:600}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#EA580C;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Space Grotesk',sans-serif}
+details.faq summary{font-weight:700;color:#1C1917;list-style:none;font-family:'Space Grotesk',serif}
+.cat-item:last-child{border-bottom:none}
+.cta h3{font-family:'Space Grotesk',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+table th{background:#171717;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
 /* SIDEBAR — modern clean */
 aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
-.sb-home{display:block;padding:1rem 1.25rem;font-family:'Space Grotesk',serif;font-weight:700;color:#FFF;background:#171717;letter-spacing:.02em;text-decoration:none;font-size:1rem}
-.sb-home:hover{color:#EA580C}
-.cat-item{border-bottom:1px solid #F3F4F6}
-.cat-item:last-child{border-bottom:none}
+details.faq p{color:#444;margin:0}
+body{font-family:'IBM Plex Sans',Georgia,serif;background:#FAFAF9;color:#1C1917;line-height:1.7;font-size:16px}
+.header-email{color:#FFF;font-size:.88rem}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
+main h2{font-family:'Space Grotesk',serif;font-weight:700;font-size:1.6rem;color:#1C1917;margin:2rem 0 1rem;letter-spacing:.01em}
+.crumb-885f{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#1C1917}
+/* HEADER DARK */
+.header{background:#171717;color:#FFF;padding:3rem 3rem 4rem}
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
-.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
-.cat-name:hover{color:#EA580C;background:#F9FAFB}
-.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
+.brand-name{font-family:'Space Grotesk',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
+/* MAIN */
+main{background:#FFF;padding:3rem 3rem;min-height:60vh}
 .cat-toggle:hover{color:#EA580C;background:#F9FAFB}
 .cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
 .cat-arrow svg{width:10px;height:10px;display:block}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
-.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
-.cat-sub a:hover{color:#EA580C;border-left-color:#EA580C;background:#F3F4F6}
-/* MAIN */
-main{background:#FFF;padding:3rem 3rem;min-height:60vh}
-main h2{font-family:'Space Grotesk',serif;font-weight:700;font-size:1.6rem;color:#1C1917;margin:2rem 0 1rem;letter-spacing:.01em}
-main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 main p:first-child{font-size:1.05rem;color:#333}
-.cta{background:#171717;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
-.cta h3{font-family:'Space Grotesk',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
-.cta p{color:#FFF !important;text-align:center !important}
-.cta a{color:#EA580C;font-weight:600}
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+.sb-home{display:block;padding:1rem 1.25rem;font-family:'Space Grotesk',serif;font-weight:700;color:#FFF;background:#171717;letter-spacing:.02em;text-decoration:none;font-size:1rem}
+.header h1{font-family:'Space Grotesk',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
+.brand-text{margin-top:.3rem}
 table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'IBM Plex Sans',serif}
-table th{background:#171717;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#1C1917}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
-details.faq summary{font-weight:700;color:#1C1917;list-style:none;font-family:'Space Grotesk',serif}
-details.faq[open] summary{margin-bottom:.7rem;color:#D97706}
-details.faq p{color:#444;margin:0}
-footer{background:#171717;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
-footer a{color:#EA580C}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://grande-prairie.geotechnicalengineering.vip/seismic/", "url": "https://grande-prairie.geotechnicalengineering.vip/seismic/", "name": "Seismic in Grande Prairie – Canada", "inLanguage": "en", "description": "Seismic engineering in Grande Prairie addresses site-specific ground response within a region of moderate seismicity influenced by the Montney and Duvernay", "isPartOf": {"@type": "WebSite", "@id": "https://grande-prairie.geotechnicalengineering.vip/#website", "url": "https://grande-prairie.geotechnicalengineering.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://grande-prairie.geotechnicalengineering.vip/"}, {"@type": "ListItem", "position": 2, "name": "Seismic", "item": "https://grande-prairie.geotechnicalengineering.vip/seismic/"}]}, {"@type": "ItemList", "name": "Seismic", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://grande-prairie.geotechnicalengineering.vip/liquefaction/", "name": "Soil liquefaction analysis"}, {"@type": "ListItem", "position": 2, "url": "https://grande-prairie.geotechnicalengineering.vip/seismic-isolation/", "name": "Base isolation seismic design"}, {"@type": "ListItem", "position": 3, "url": "https://grande-prairie.geotechnicalengineering.vip/seismic-microzonation/", "name": "Seismic microzonation"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+a:hover{color:#D97706}
+a{color:#EA580C;text-decoration:none}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+.cat-name:hover{color:#EA580C;background:#F9FAFB}
+.brand{display:flex;align-items:flex-start;gap:1rem}
+.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
+.cta{background:#171717;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
+.crumb-885f a:hover{color:#EA580C}
+.cta p{color:#FFF !important;text-align:center !important}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+footer{background:#171717;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}aside{position:static}
+.cat-item{border-bottom:1px solid #F3F4F6}
+*{margin:0;padding:0;box-sizing:border-box}
+.cat-sub a:hover{color:#EA580C;border-left-color:#EA580C;background:#F3F4F6}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"isPartOf":{"url":"https://grande-prairie.geotechnicalengineering.vip","@id":"https://grande-prairie.geotechnicalengineering.vip/#website","@type":"WebSite"},"url":"https://grande-prairie.geotechnicalengineering.vip/seismic/","@type":"WebPage","name":"Seismic in Grande Prairie – Canada","description":"Seismic engineering in Grande Prairie addresses site-specific ground response within a region of moderate seismicity influenced by the Montney and Duvernay","inLanguage":"en","@id":"https://grande-prairie.geotechnicalengineering.vip/seismic/"},{"itemListElement":[{"name":"Home","position":1,"item":"https://grande-prairie.geotechnicalengineering.vip/","@type":"ListItem"},{"name":"Seismic","position":2,"item":"https://grande-prairie.geotechnicalengineering.vip/seismic/","@type":"ListItem"}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://grande-prairie.geotechnicalengineering.vip/liquefaction/","name":"Soil liquefaction analysis","position":1,"@type":"ListItem"},{"url":"https://grande-prairie.geotechnicalengineering.vip/seismic-isolation/","name":"Base isolation seismic design","position":2,"@type":"ListItem"},{"url":"https://grande-prairie.geotechnicalengineering.vip/seismic-microzonation/","name":"Seismic microzonation","position":3,"@type":"ListItem"}],"@type":"ItemList","name":"Seismic"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 
 <header class="header">
     <div class="header-top">
         <div class="brand">
-            <div class="brand-logo">G</div>
+            <div class="brand-logo">GE</div>
             <div class="brand-text">
                 <div class="brand-name">GEOTECHNICALENGINEERING</div>
                 <div class="brand-city">Grande Prairie, Canada</div>
@@ -87,7 +86,7 @@ footer a{color:#EA580C}
         </div>
         <a href="mailto:contact@geotechnicalengineering.vip" class="header-email">contact@geotechnicalengineering.vip</a>
     </div>
-    <div class="crumb"><a href="/">Home</a> › <span>Seismic</span></div>
+    <div class="crumb-885f-885f"><a href="/">Home</a> › <span>Seismic</span></div>
     <h1>Seismic in Grande Prairie</h1>
 </header>
 
@@ -97,50 +96,14 @@ footer a{color:#EA580C}
         <p>Seismic engineering in Grande Prairie addresses site-specific ground response within a region of moderate seismicity influenced by the Montney and Duvernay formations. Local practice follows the National Building Code of Canada (NBC 2020) and must account for deep glacial till, buried channels, and variable shallow groundwater that can amplify shaking. Our <a href="liquefaction">soil liquefaction analysis</a> evaluates saturated fine sands and silts often encountered in the Smoky River lowlands, while <a href="seismic-microzonation">seismic microzonation</a> maps spatial variations in ground motion across the city’s expanding commercial and residential corridors.</p>
 <p>Critical infrastructure, mid‑rise structures, and energy facilities on soft deposits typically require a site‑specific seismic hazard study. We support structural engineers with <a href="seismic-isolation">base isolation seismic design</a> when performance‑based criteria or post‑disaster functionality govern. From pipeline corridors to institutional buildings, integrating local stratigraphy and code‑compliant spectra ensures resilient, cost‑effective foundations in Grande Prairie’s evolving regulatory landscape.</p>
 
-        <blockquote style="border-left:4px solid #EA580C;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Anchor bond capacity in Grande Prairie glaciolacustrine clay is governed more by pore pressure dissipation during grouting than by the undrained shear strength of the intact soil.</blockquote>
-
         
-
-        <h2>Methodology and scope</h2><div>Grande Prairie's development through the 1970s oil boom placed infrastructure on clay plains that were often assumed competent, yet subsequent performance has shown that passive anchors in the Smoky River Member clay can undergo creep relaxation when loaded beyond 60% of the short-term ultimate bond. We approach design by first establishing the site-specific at-rest earth pressure coefficient through consolidated-undrained triaxial testing, then modeling the active wedge geometry with the actual groundwater table recorded seasonally. For tieback anchors in deep excavations near the new hospital district, the tendon free length must extend well past the critical failure surface identified in <a href="/slope-stability/">slope-stability</a> analysis, while the bond length is determined from grout-to-ground stress limits per PTI DC35.1-14 recommendations, adjusted downward when drilling logs reveal interbedded silt seams with reduced confinement.</div>
-        <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"><img src="/img/anclajes-3.webp" alt="Active and Passive Anchor Design for Northern Alberta Soil Conditions" loading="lazy" style="width:100%;max-height:200px;object-fit:cover;display:block"></figure>
-        <h2>Local considerations</h2><p>A fully instrumented hydraulic jack with a calibrated load cell and digital dial gauge system is mobilized to Grande Prairie sites for anchor performance and proof testing. The primary risk we encounter isn't tendon failure but progressive bond zone deterioration in stiff clay when cyclic seasonal moisture fluctuation causes shrinkage at the grout-clay interface, a mechanism that reduces passive resistance by as much as 25% over five years if the anchor was designed without a corrosion-protected double-corrugated sheathing extending into the bond zone. Installing sacrificial anodes and specifying a water-cement ratio no greater than 0.45 for the neat grout reduces this degradation pathway substantially, and every anchor is lift-off tested 72 hours after grouting to confirm the lock-off load hasn't drifted.</p>
-
-        
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block mid-cta-885f-885f" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#EA580C15,#EA580C08);border-left:4px solid #EA580C;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
         <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering.vip" style="display:inline-block;background:#EA580C;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering.vip</a></div>
       </div>
     </section>
-
-        
-
-        <h2>Applicable standards</h2><p>CSA A23.3-19 Annex D – Anchorage to Concrete and Grouted Anchors, PTI DC35.1-14 – Recommendations for Prestressed Rock and Soil Anchors, ASTM A416/A416M-18 – Low-Relaxation Seven-Wire Steel Strand for Prestressed Concrete, CAN/CSA-G40.21-13 – Structural Quality Steels (anchor head components)</p>
-
-        
-    <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
-      <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#EA580C; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#EA580C; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#EA580C; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:1.5rem;font-weight:700">Associated technical services</h2>
-        <div class="sub-svc-grid">
-          <div class="sub-svc"><div class="sub-svc-num" style="color:#EA580C;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#171717;font-size:1.1rem;margin:.3rem 0 .5rem">Bond Zone Characterization</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Laboratory direct shear testing of the grout-to-soil interface using remolded samples compacted to field density, providing site-specific ultimate bond stress values for both active and passive anchor designs in the Smoky River till.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#EA580C;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#171717;font-size:1.1rem;margin:.3rem 0 .5rem">Anchor Proof Testing Supervision</h3><p style="color:#333;line-height:1.65;font-size:.93rem">On-site monitoring of hydraulic jack loading sequences per CSA A23.3, including incremental load-hold cycles and creep movement measurement using digital dial gauges, with immediate pass/fail evaluation against the project acceptance criteria.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#EA580C;font-weight:700;font-size:.85rem;letter-spacing:.1em">03</div><h3 style="color:#171717;font-size:1.1rem;margin:.3rem 0 .5rem">Tendon Corrosion Risk Assessment</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Soil resistivity and pH profiling along the anchor borehole alignment to determine the required level of encapsulation protection, referencing FHWA guidelines for permanent ground anchors in northern climates with freeze-thaw cycling.</p></div>
-        </div>
-      </div>
-    </section>
-
-        <h2>Typical parameters</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #EA580C;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#EA580C;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Design standard for grouted anchors</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">CSA A23.3 Annex D / PTI DC35.1-14</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical bond zone diameter in clay</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">150–200 mm (gravity or low-pressure grout)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Free length minimum (active anchors)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">4.5 m or per critical wedge geometry</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Proof test load</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">133% of design lock-off load per CSA A23.3</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Creep test threshold (passive)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500"><2.0 mm log-cycle movement at 100% design load</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Grout compressive strength at 7 days</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥30 MPa (CSA Type GU cement)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Hole inclination from horizontal</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15°–30° downdip for gravity grouting</td></tr></tbody></table></div>
-
-        <h2>Frequently asked questions</h2><details class="faq"><summary>What distinguishes an active anchor from a passive anchor in retaining wall design?</summary><p>An active anchor is prestressed to a lock-off load after grouting, which actively compresses the retained soil mass and limits wall deflection from the start. A passive anchor is not tensioned until the wall begins to move, meaning it relies on soil deformation to mobilize resistance. In Grande Prairie's stiff clay, active anchors are preferred for permanent hospital or school excavations where adjacent infrastructure is sensitive to settlement, while passive anchors can be suitable for temporary sheet pile walls where some lateral movement is tolerable.</p></details><details class="faq"><summary>How deep into the native till must the bond zone extend for a typical anchored wall in Grande Prairie?</summary><p>The bond zone must be entirely within competent glacial till or clay below the active seasonal moisture variation zone, which in Grande Prairie extends to roughly 2.5 m depth. For a 6 m high wall, the bond length usually falls between 6 and 9 m depending on the undrained shear strength confirmed by laboratory triaxial testing. We verify that the bond zone is at least 1.5 m beyond any identified shear plane and that the confined grout-to-ground bond stress does not exceed values published in PTI DC35.1-14 for stiff cohesive soils.</p></details><details class="faq"><summary>What is the typical cost range for anchor design testing and proof testing in the Grande Prairie area?</summary><p>For a complete anchor testing program, including laboratory bond shear testing, on-site proof testing of three to five anchors, and a detailed report with load-displacement curves, the investment generally ranges from CA$1,390 to CA$5,460 depending on the number of anchors in the program and the depth of the instrumentation required.</p></details><details class="faq"><summary>Can anchors be installed during Grande Prairie's winter months?</summary><p>Winter installation is feasible but requires preheating the grout mixing water to at least 20°C and protecting the grouted anchor head with insulated blankets for 72 hours to ensure the neat cement grout reaches initial set before freezing. The bond zone soil temperature at depth remains above freezing year-round, so the critical factor is preventing the free-length portion from being compromised by ice lens formation at the collar during the curing period.</p></details><details class="faq"><summary>How is anchor creep evaluated during the proof testing stage?</summary><p>During the proof test, the anchor is loaded in increments up to 133% of the design lock-off load, holding at each increment for a minimum of 10 minutes while measuring creep movement with a dial gauge reading to 0.025 mm. Creep movement must remain below 2.0 mm per log cycle of time per CSA A23.3 criteria; any anchor exceeding this threshold is de-tensioned, re-grouted if necessary, and re-tested until the movement stabilizes within the acceptable envelope.</p></details>
-    
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../liquefaction/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Soil liquefaction analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-isolation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Base isolation seismic design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-microzonation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismic microzonation</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
 </div>
 
@@ -169,7 +132,7 @@ footer a{color:#EA580C}
       </div>
     </section>
 
-<footer style="background:#171717;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Grande Prairie, Canada · <a href="mailto:contact@geotechnicalengineering.vip" style="color:#FFF;text-decoration:underline">contact@geotechnicalengineering.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-01</div></footer>
+<footer style="background:#171717;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Grande Prairie, Canada · <a href="mailto:contact@geotechnicalengineering.vip" style="color:#FFF;text-decoration:underline">contact@geotechnicalengineering.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-04-21" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-04-21</div></footer>
 
 <script id="sidebar-toggle-v3">
 (function(){
